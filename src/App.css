@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    background-color: rgb(165, 101, 224);
+    border: none;
+    cursor: pointer;
+    transition: transform 0.1s ease-in-out;
+}
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    transform: translateX(-2px);
+}
+
+
+.buttons {
+    display: block;
+}
+
+.buttons button {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.active {
+    color: rgb(217, 255, 0);
+    
+}
+
